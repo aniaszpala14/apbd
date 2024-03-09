@@ -5,13 +5,15 @@ Console.WriteLine("Zmiana 3!");
 
 static double GetAverage(int[] numbers)
 {
-    double result2 = 0.0;
+
+    double res = 0.0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        result2 += numbers[i];
+        res += numbers[i];
     }
 
-    return result2 / numbers.Length;
+    return res / numbers.Length;
+
 }
 
 int[] numbers = { 1, 2, 3, 4 };
